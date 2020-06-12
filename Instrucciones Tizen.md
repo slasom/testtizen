@@ -87,14 +87,14 @@ Antes de ejecutar nuestra aplicación, dado que vamos a necesitar acceso a inter
 
 Una vez tenemos nuestra aplicación lista para probarla, necesitaremos compilarla y generar un paquete de instalación. También necesitaremos un dipositivo, ya sea real o emulado, donde desplegarla.
 
-## Dispositivo real
+## dispositivo real
 Necesitamos un reloj Samsung conectado a la misma red wifi que el dispositivo que estamos utilizando para el desarrollo. Una vez conectado, debemos obtener la IP del reloj.
 
 Abrimos el programa "Device Manager" de tizen studio, y pulsamos en el botón "Remote Device Manager". Pulsamos en el botón + para añadir un nuevo dispositivo, dándole un nombre e introduciendo la IP que obtuvimos antes. El puerto se puede dejar por defecto. Una vez añadido, pulsamos en el botón OFF para cambiar a ON e iniciar la conexión.
 
 ![](./Imagenes-markdown/device-manager-1.png)
 
-## Dispositivo emulado
+## dispositivo emulado
 Abrimos el programa "Emulator Manager" de Tizen Studio. Si no lo hemos hecho anteriormente, creamos un nuevo dispositivo "Wearable Circle". Una vez tenemos nuestro dispositivo creado, lo seleccionamos y presionamos el botón Launch. Aparecerá una ventana con forma de reloj wearable, emulando la funcionalidad de un dispositivo real.
 
 ![](./Imagenes-markdown/emulator-1.png)
